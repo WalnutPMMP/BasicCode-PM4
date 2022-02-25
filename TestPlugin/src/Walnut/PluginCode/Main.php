@@ -17,13 +17,13 @@ class Main extends PluginBase {
 	}
 
 	public function onDisable(): void {
-		$this->getLogger()->info("This Plugin Off!")
+		$this->getLogger()->info("This Plugin Off!");
 	}
 
 	public function onCommand(CommandSender $sender, Command $cmd, String $Label, Array $args) : bool {
 
 		if($cmd->getName() == "test"){
-			$sender->sendMessage("Change this text to use this code")
+			$sender->sendMessage("Change this text to use this code");
 		}
     return true;
 	}
