@@ -23,7 +23,7 @@ class Main extends PluginBase {
 	public function onCommand(CommandSender $sender, Command $cmd, String $Label, Array $args) : bool {
 
 		if($cmd->getName() == "test"){
-			$sender->sendMessage("/gamemode c")
+			$sender->sendMessage("Change this text to use this code")
 		}
     return true;
 	}
