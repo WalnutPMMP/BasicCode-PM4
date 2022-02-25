@@ -2,6 +2,8 @@
 This is a basic code in PMMP API 4
  
 # Plugin.yml
+
+```yml
 name: BasicCodePM4
 main: Walnut\PluginCode\Main
 author: WalnutDEVF
@@ -17,7 +19,8 @@ permissions:
    test.basic.cmd:
     description: "A permission basic code pm4"
     default: true
-    
+```
+
 # API 
 PocketMine-MP 4.0.0
 1.18.x
